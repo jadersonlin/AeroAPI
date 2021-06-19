@@ -13,5 +13,3 @@ CREATE TABLE Passageiro
 	Celular NVARCHAR(20)
 )
 GO
-
-SELECT * FROM Passageiro
