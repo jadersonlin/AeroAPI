@@ -1,0 +1,5 @@
+
+
+
+SELECT * FROM TbParticipante P (NOLOCK)
+INNER JOIN TbPar
