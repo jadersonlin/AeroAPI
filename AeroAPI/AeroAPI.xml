@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AeroAPI</name>
+    </assembly>
+    <members>
+        <member name="T:AeroAPI.Controllers.PassageiroController">
+            <summary>
+            Operações referentes ao Passageiro
+            </summary>
+        </member>
+        <member name="M:AeroAPI.Controllers.PassageiroController.Get(System.Int32)">
+            <summary>
+            Obter dados de passageiro
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AeroAPI.Controllers.PassageiroController.Post(AeroAPI.Models.PassageiroInputModel)">
+            <summary>
+            Inserir dados de passageiro
+            </summary>
+            <param name="passageiro"></param>
+        </member>
+        <member name="M:AeroAPI.Controllers.PassageiroController.Put(System.Int32,AeroAPI.Models.PassageiroInputModel)">
+            <summary>
+            Editar dados de passageiro
+            </summary>
+            <param name="id"></param>
+            <param name="passageiro"></param>
+        </member>
+        <member name="M:AeroAPI.Controllers.PassageiroController.ValidateModel(AeroAPI.Models.PassageiroInputModel)">
+            <summary>
+            Validação de dados.
+            </summary>
+            <param name="passageiro"></param>
+        </member>
+        <member name="M:AeroAPI.Controllers.PassageiroController.Delete(System.Int32)">
+            <summary>
+            Excluir dados de passageiro.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:AeroAPI.Models.PassageiroInputModel">
+            <summary>
+            Passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroInputModel.Nome">
+            <summary>
+            Nome do passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroInputModel.Idade">
+            <summary>
+            Idade do passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroInputModel.Celular">
+            <summary>
+            Celular do passageiro
+            </summary>
+        </member>
+        <member name="T:AeroAPI.Models.PassageiroModel">
+            <summary>
+            Passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroModel.Id">
+            <summary>
+            Identificador de passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroModel.Nome">
+            <summary>
+            Nome dod passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroModel.Idade">
+            <summary>
+            Idade do passageiro
+            </summary>
+        </member>
+        <member name="P:AeroAPI.Models.PassageiroModel.Celular">
+            <summary>
+            Celular do passageiro
+            </summary>
+        </member>
+    </members>
+</doc>
