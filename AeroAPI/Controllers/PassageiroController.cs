@@ -96,6 +96,10 @@ namespace AeroAPI.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            if (id == 0)
+                throw new InvalidDataException("Invalid Id!");
+
+            passageiroRepository.Delete(id);
         }
     }
 }
